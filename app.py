@@ -33,7 +33,8 @@ if frame is not None:
     img = img/255 # standardize img
     pred = (model.predict(img.reshape(1,224,224,3)) > 0.5).astype("int32")
 
-    y_pred = pred[0][0]
-
-    st.write(y_pred)
+    if pred[0][0] == 0:
+        st.success("Mask ON")
+    else:
+        st.error("No Mask")
 
