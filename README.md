@@ -1,4 +1,4 @@
-# Food Review Sentiment Analysis
+# Face Mask Detection
 
 ## **Business Problem**
 
@@ -7,9 +7,9 @@ In recent trend in world wide Lockdowns due to COVID19 outbreak, as Face Mask is
 Is it possible to create a model to detect people wearing masks, not wearing them.
 
 ## Overview
-An ML model which can analyzing hundreds of food reviews and return the percentage of Positive, Neutral and Negative reviews.
+An ML (deep learning) model which can analyzing whetaher a face is covered with mask or not.
 
-* **Deployed web app :**https://praathapj-foodreviewsentimentana-foodreviewsentiment-app-e1nreg.streamlit.app/
+* **Deployed web app :** https://praathapj-facemaskdetection-app-b5c2wm.streamlit.app/
 
 ## Data Collection
 Real world images obtained from kaggle: https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
