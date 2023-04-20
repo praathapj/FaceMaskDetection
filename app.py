@@ -35,7 +35,7 @@ if frame is not None:
 
     if pred[0][0] == 0:
         st.success("Mask ON")
-    else:
+    if pred[0][0] == 1:
         st.error("No Mask")
 
 st.write(" ")
